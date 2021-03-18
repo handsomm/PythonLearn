@@ -63,3 +63,4 @@ range(start, stop, step-size)
 Break: break the loops
 Continue: skip the if condition
 pass: it is a null statement and it instruct to "Do nothing"
+f String: print(f"#code")
