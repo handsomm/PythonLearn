@@ -55,3 +55,11 @@ and, or, not, ==, <=, >=, !=
 => is = this is the value
 => in = value inside this
 
+Loops:
+Two types os loops in python
+  1: While
+  2: For
+range(start, stop, step-size)
+Break: break the loops
+Continue: skip the if condition
+pass: it is a null statement and it instruct to "Do nothing"
