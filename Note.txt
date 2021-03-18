@@ -1,0 +1,57 @@
+Arithmatic operator (+, -, *, /, %)
+Assignment operators (=, +=, -=, *=, !=)
+Comparision operators (<, >, <=, >=)
+Logical operators (and, or, not)
+
+Type Casting => type()
+Input from user => input()
+For indexing use []
+
+Strings => " ", ' ', ''' '''
+
+concatinating => +
+Strings functions => endswith, count, capitalize, find, replace
+
+List => [ ]
+List slicing [0:4]
+List methods => sort, reverse, append, insert, pop, remove
+
+Tuple => ( )
+Single element tuple => (x,)
+Cannot update tuple values
+Tuple methods => count, index
+
+Dictionary => {
+    "x":"y"
+}
+Dictionary methods => keys, value
+Update the dictionary by adding key-value pair
+print(myDict.get("x")) => Dosen't get error
+print(myDict["x"]) => get an error
+
+Set => {1, 2, 3}
+a = {} This shows a empty dictionary not a set
+For create empty set a = set()
+In set we can't add a list or dictionary
+Sets are unordered
+Sets are unindexed
+There is no way to change items in set
+Sets can't duplicate values
+Set methods => add, len, remove, pop, clear, union, intersection
+
+if elif else statement
+sintax => if(condition):
+            #code
+          elif(condition):
+            #code
+          else:
+            #code
+else is optional.
+
+Logical, relational operators in ifelse
+and, or, not, ==, <=, >=, !=
+
+# Is and In
+=> is = this is the value
+=> in = value inside this
+
