@@ -10,7 +10,7 @@ For indexing use []
 Strings => " ", ' ', ''' '''
 
 concatinating => +
-Strings functions => endswith, count, capitalize, find, replace
+Strings functions => startswith, endswith, count, capitalize, find, replace
 
 List => [ ]
 List slicing [0:4]
