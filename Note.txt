@@ -64,3 +64,13 @@ Break: break the loops
 Continue: skip the if condition
 pass: it is a null statement and it instruct to "Do nothing"
 f String: print(f"#code")
+
+functions syntax:
+def fcnName():
+  #code
+Functions with arguments => pass 1 or more value with function.
+Default parameter value => this value is use when no argument is passed.
+
+Recursion:
+-> Recursion is a function which call it self. 
+-> It is used to directly use a mathematical formula as a function.
