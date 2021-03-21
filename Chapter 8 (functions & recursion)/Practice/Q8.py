@@ -1,8 +1,8 @@
 # Write a python programm to print multiplication table of a given number
 
-def mul(n):
+def mul_table(num):
     for i in range(1, 11):
-        print(f"{n} X {i} = {n*i}")
-
-num = int(input("Enter a number: "))
-print(mul(num))
+        print(f"{num} X {i} = {num*i}")
+    
+n = int(input("Enter a number: "))
+mul_table(n)

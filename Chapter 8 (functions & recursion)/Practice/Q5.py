@@ -3,6 +3,9 @@
 #  * *
 #  *
 
+def partten(n):
+    for i in range(n):
+        print("*" * (n-i))
+
 n = int(input("Enter a number: "))
-for i in range(n):
-    print("*" * (n-i))
+partten(n)
