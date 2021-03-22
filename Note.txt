@@ -1,76 +1,102 @@
-Arithmatic operator (+, -, *, /, %)
-Assignment operators (=, +=, -=, *=, !=)
-Comparision operators (<, >, <=, >=)
-Logical operators (and, or, not)
+-> Arithmatic operator (+, -, *, /, %)
+-> Assignment operators (=, +=, -=, *=, !=)
+-> Comparision operators (<, >, <=, >=)
+-> Logical operators (and, or, not)
 
-Type Casting => type()
-Input from user => input()
-For indexing use []
+-> Type Casting => type()
+-> Input from user => input()
+-> For indexing use []
 
-Strings => " ", ' ', ''' '''
+-> Strings => " ", ' ', ''' '''
 
-concatinating => +
-Strings functions => startswith, endswith, count, capitalize, find, replace
+-> concatinating => +
+-> Strings functions => startswith, endswith, count, capitalize, find, replace
 
-List => [ ]
-List slicing [0:4]
-List methods => sort, reverse, append, insert, pop, remove
+-> List => [ ]
+-> List slicing [0:4]
+-> List methods => sort, reverse, append, insert, pop, remove
 
-Tuple => ( )
-Single element tuple => (x,)
-Cannot update tuple values
-Tuple methods => count, index
+-> Tuple => ( )
+-> Single element tuple => (x,)
+-> Cannot update tuple values
+-> Tuple methods => count, index
 
-Dictionary => {
+-> Dictionary => {
     "x":"y"
 }
-Dictionary methods => keys, value
-Update the dictionary by adding key-value pair
-print(myDict.get("x")) => Dosen't get error
-print(myDict["x"]) => get an error
+-> Dictionary methods => keys, value
+-> Update the dictionary by adding key-value pair
+-> print(myDict.get("x")) => Dosen't get error
+-> print(myDict["x"]) => get an error
 
-Set => {1, 2, 3}
-a = {} This shows a empty dictionary not a set
-For create empty set a = set()
-In set we can't add a list or dictionary
-Sets are unordered
-Sets are unindexed
-There is no way to change items in set
-Sets can't duplicate values
-Set methods => add, len, remove, pop, clear, union, intersection
+-> Set => {1, 2, 3}
+-> a = {} This shows a empty dictionary not a set
+-> For create empty set a = set()
+-> In set we can't add a list or dictionary
+-> Sets are unordered
+-> Sets are unindexed
+-> There is no way to change items in set
+-> Sets can't duplicate values
+-> Set methods => add, len, remove, pop, clear, union, intersection
 
-if elif else statement
+-> if elif else statement
 sintax => if(condition):
             #code
           elif(condition):
             #code
           else:
             #code
-else is optional.
+-> else is optional.
 
-Logical, relational operators in ifelse
+-> Logical, relational operators in ifelse
 and, or, not, ==, <=, >=, !=
 
 # Is and In
 => is = this is the value
 => in = value inside this
 
-Loops:
-Two types os loops in python
+=>Loops:
+-> Two types os loops in python
   1: While
   2: For
-range(start, stop, step-size)
-Break: break the loops
-Continue: skip the if condition
-pass: it is a null statement and it instruct to "Do nothing"
-f String: print(f"#code")
+-> range(start, stop, step-size)
+-> Break: break the loops
+-> Continue: skip the if condition
+-> pass: it is a null statement and it instruct to "Do nothing"
+-> f String: print(f"#code")
 
-functions syntax:
-def fcnName():
+=> Function:
+-> def fcnName():
   #code
-Functions with arguments => pass 1 or more value with function.
-Default parameter value => this value is use when no argument is passed.
+->Functions with arguments => pass 1 or more value with function.
+->Default parameter value => this value is use when no argument is passed.
 
 Recursion:
 -> Recursion is a function which call it self. 
 -> It is used to directly use a mathematical formula as a function.
+
+File I/O:
+-> A file is data store in a storage device. A python programm can talk to the file by reading content from it and writing content to it.
+
+-> Files are 2 types:
+  1.Text Files
+  2.Binary Files
+
+-> Python has a lot of functions for reading, updating and deleying.
+
+-> Open file:
+  open('filename', 'mode')
+  By Default mode is 'r'
+  For close: close()
+  For Read: read(4) -> read 4 charecter
+  For Read a line -> readline()
+  Modes:
+    r = open for read
+    w = open for writing
+    a = open for appending
+    + = open for updating
+    rb = open for read in Binary mode
+    rt = open for read in Text mode
+-> with statement:
+  with open('filename', 'r/w') as f:
+    f.read/write
