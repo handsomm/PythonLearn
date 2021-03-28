@@ -6,5 +6,3 @@ f.close()
 # f = open('demo.txt', 'a')
 # f.write(" I am appending")
 # f.close()
-
- 

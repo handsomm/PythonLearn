@@ -100,3 +100,6 @@ File I/O:
 -> with statement:
   with open('filename', 'r/w') as f:
     f.read/write
+  -> In this with statement don't need to f.close() as it is done automatically.
+
+  
