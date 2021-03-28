@@ -103,3 +103,17 @@ File I/O:
   -> In this with statement don't need to f.close() as it is done automatically.
 
   
+=> OOP:
+-> Class is a blueprint for a create object.
+-> Syntax of Class:
+  Class Nane:
+    # methods & variables
+
+-> Object:
+  * An object is instantiation of a class.
+  * An attribute that belongs to the class rather than a perticular object.
+-> Class attributes
+-> Instance attributes
+  * An attribute that belongs to the instance(object).
+-> self:
+  * selfrefers to the instance of the class is automatically passed with a function call from an object.
